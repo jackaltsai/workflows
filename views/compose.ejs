@@ -1,0 +1,21 @@
+
+<%- include("partials/header"); -%>
+
+
+    <h1>撰寫文章</h1>
+    <form class="" action="/compose" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label class="form-label">標題</label>
+            <input class="form-control" type="text" name="postTitle">
+            <label class="form-label">內容</label>
+            <textarea class="form-control" name="postBody" rows="8" cols="80"></textarea>
+            <label class="form-label" for="image">圖片</label>
+            <input type="file" class="form-control" id="image" name="image" />
+        </div>
+        <button class="btn btn-primary" type="submit" name="button">Publish</button>
+    </form>
+    <form action="/logout?_method=DELETE" method="POST">
+        <button class="nav-link fw-bold py-1 px-0 btn p=3 btn-dark text-white" type="submit"  >Logout</button>
+
+      </form>
+<%- include("partials/footer"); -%>

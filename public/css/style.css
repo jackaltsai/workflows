@@ -1,0 +1,172 @@
+.fullPage {
+    background-color: rgb(5, 16, 57);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+ 
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.navbar-brand img {
+    width: 30;
+    height: 24;
+}
+
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+.homeImage {
+    z-index: -1;
+    position: relative;
+    top: -56px;
+}
+
+.aboutUs {
+    margin-top: -56px;
+}
+
+.aboutUs .text-bg-dark {
+    margin-left: -24px;
+}
+
+.aboutUs h2 {
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.aboutUs p {
+    width: auto;
+}
+
+/* blog */
+
+
+.blogsTitle {
+    font-size: 56px;
+    padding-top: 50px;
+    color: #ffffff;
+}
+
+.stretched-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
+}
+
+.bootstrapText {
+    position: absolute;
+    font-size: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.companyTitle {
+    font-size: 56px;
+    color: #ffffff; 
+}
+
+/* conn */
+.connentTitle {
+    font-size: 56px;
+    color: #ffffff; 
+}
+
+.connLabel {
+    color: white;
+}
+
+.connInput {
+    border-color: #ffffff;
+    background-color: black;
+    color: #ffffff;
+}
+
+/* post-page */
+.post-page {
+    background-color: rgb(5, 16, 57);
+}
+
+.post-h {
+    color: #ffffff;
+}
+
+.post-p {
+    color: #ffffff;
+}
+
+@media (min-width: 400px) {
+    .post-img {
+        width: 90%;
+    }
+    .companySvg {
+        width: auto;
+    }
+}
+
+@media (min-width: 576px) {
+    .post-img {
+        width: 90%;
+    }
+    .companySvg {
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) { 
+    .post-img {
+        width: 90%;
+    }
+    .companySvg {
+        width: auto;
+    }
+ }
+
+@media (min-width: 992px) { 
+    .post-img {
+        width: auto;
+    }
+    .companySvg {
+        width: auto;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .post-img {
+        width: auto;
+    }
+    .companySvg {
+        width: auto;
+    }
+ }
+
+@media (min-width: 1400px) { 
+    .post-img {
+        width: auto;
+    }
+    .companySvg {
+        width: auto;
+    }
+ }
