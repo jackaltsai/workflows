@@ -96,7 +96,7 @@ const upload = multer({ storage: storage });
 
 const users = [{
     id: '1680796175100',
-    email: 'admin@xyz.com',
+    email: 'admin@xyz.com', // passw0rd
     password: '$2b$08$VuUOw1UmbQqijSi/yZ1tm.3Myd.pBW1Sz6eaAVt4ustXv/Vw6MpAe'
 }];
 
